@@ -1,0 +1,204 @@
+body {
+    margin: 0;
+    font-family: 'Orbitron', sans-serif;
+font-family: 'Source Sans 3', sans-serif;
+}
+.header-title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 16px;
+
+}
+.header-logo {
+    width: 34.25px;
+    height: 30.25px;
+}
+.header-button, .anchor {
+    float: right;
+    text-decoration: none;
+    padding: 0 0 0 20px;
+    color: black;
+    margin-top: 16px;
+    margin-right: 16px;
+}
+.header-button, .header-title {
+    background-color: white;
+}
+.main-1 {
+    background-image: url(blogfour.jpg);
+    background-size: 100% 729.92px;
+    padding-top: 515px;
+    color: white;
+    padding-left: 35px;
+    padding-bottom: 30px;
+}
+.contineer-main img {
+    width: 329.5px;
+    height: 232px;
+    border-radius: 5px;
+}
+.contineer-main h1 {
+    font-weight: bold;
+}
+.contineer-main {
+    background-color: #FAFAFA;
+}
+.contineer-main .blog {
+    color: black;
+}
+.contineer-main .blog:hover {
+    background-color: rgb(218, 218, 218);
+    border-radius: 5px;
+    border: 1px solid rgb(156, 156, 156);
+}
+.contineer-main a {
+    text-decoration: none;
+}
+.row-one {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 60px;
+  }
+  .row-two {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 60px;
+  }
+.footer a{
+color: black;
+font-weight: bold;
+}
+.footer {
+text-align: center;
+margin-top: 30px;
+padding-bottom: 50px;
+}
+footer {
+text-align: center;
+background-color: #202020;
+color: white;
+padding: 5px;
+margin-bottom: 80px;
+display: block;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 414px) {
+    .header-title {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        font-size: 7px;
+        margin-left: 16px;
+
+    }
+    .header-logo {
+        width: 23.16px;
+        height: 21.16px;
+    }
+    .header-button, .anchor {
+        float: right;
+        text-decoration: none;
+        padding: 0 0 0 20px;
+        color: black;
+        margin-top: 6px;
+        margin-right: 16px;
+        font-size: 11px;
+        font-weight: bold;
+    }
+    .header-button, .header-title {
+        background-color: white;
+        padding: 10px;
+    }
+    
+    .main-1 {
+        background-image: url(blogfour.jpg);
+        background-size: 414px 293px;
+        color: white;
+        padding-left: 10px;
+        padding-top: 20px;
+        justify-content: flex-start;
+        padding-bottom: 2px;
+        font-size: 15px;
+    }
+    .main-1 .main-1-text p{
+        padding-bottom: 50px;
+    }
+    .paragraph-main-1 {
+        font-size: 16px;
+        width: 374px;
+        height: 80px;
+    }
+
+    .contineer-main img {
+        border-radius: 5px;
+        max-width:  100%;
+        width: 374px;
+        height: 232px;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .contineer-main h1 {
+        font-weight: bold;
+    }
+    .contineer-main div {
+        padding-bottom: 40px;
+    }
+    .contineer-main .blog {
+        color: black;
+    }
+    .contineer-main a {
+        text-decoration: none;
+    }
+    .row-one {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-top: 60px;
+        margin-bottom: -100px;
+      }
+      .row-two {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-top: 40px;
+      }
+    
+   .footer a{
+    color: black;
+    font-weight: bold;
+   }
+   .footer {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    padding-right: 30px;
+   }
+   footer {
+    text-align: center;
+    background-color: #202020;
+    color: white;
+    padding: 5px;
+    margin-bottom: 80px;
+    display: block;
+}
+  }
